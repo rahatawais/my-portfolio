@@ -1,0 +1,57 @@
+/* ---------- CONTACT CARD ---------- */
+
+.contact-card {
+  max-width: 760px;
+  margin: 30px auto;
+  padding: 32px 36px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+.contact-text {
+  color: #4b5563;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+}
+
+/* ---------- CONTACT INFORMATION ---------- */
+
+.contact-info {
+  display: grid;
+  gap: 20px;
+}
+
+.contact-item {
+  background: #f9fafb;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  transition: 0.18s ease;
+}
+
+.contact-item:hover {
+  background: #eef4ff;
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+}
+
+.contact-item strong {
+  font-weight: 600;
+  color: #111827;
+}
+
+.contact-detail {
+  color: #374151;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+/* ---------- MOBILE RESPONSIVENESS ---------- */
+
+@media (max-width: 600px) {
+  .contact-card {
+    padding: 22px 24px;
+  }
+}

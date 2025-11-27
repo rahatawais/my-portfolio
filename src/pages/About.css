@@ -1,0 +1,88 @@
+/* ---------- ABOUT CARD ---------- */
+
+.about-card {
+  margin: 30px auto;
+  padding: 32px 36px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+/* ---------- HEADINGS ---------- */
+
+.section-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.sub-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+  color: #111827;
+}
+
+/* ---------- ABOUT TEXT ---------- */
+
+.about-text {
+  color: #4b5563;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+/* ---------- EDUCATION BOX ---------- */
+
+.edu-box {
+  background: #f9fafb;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.edu-title {
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 1rem;
+}
+
+.edu-school {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+/* ---------- INTEREST LIST ---------- */
+
+.interest-list {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.interest-list li {
+  background: #f9fafb;
+  padding: 10px 14px;
+  border-radius: 10px;
+  color: #374151;
+  font-size: 0.95rem;
+  border: 1px solid #e5e7eb;
+  transition: 0.18s ease;
+}
+
+.interest-list li:hover {
+  background: #eef4ff;
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+}
+
+/* Mobile responsive tweaks */
+
+@media (max-width: 600px) {
+  .about-card {
+    padding: 22px 24px;
+  }
+}
